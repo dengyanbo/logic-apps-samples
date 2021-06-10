@@ -112,7 +112,7 @@
                             "value": "Microsoft.Azure.Functions.ExtensionBundle.Workflows"
                         },
                         {
-                            "name": "AzureFunctionsJobHost__extensionBundle__version"
+                            "name": "AzureFunctionsJobHost__extensionBundle__version",
                             "value": "[1.*, 2.0.0)"
                         },
                         {
