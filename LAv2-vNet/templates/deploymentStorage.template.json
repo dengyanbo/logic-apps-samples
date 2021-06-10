@@ -23,7 +23,7 @@
         "supportsHttpsTrafficOnly": {
             "type": "Bool"
         },
-        "allowBlobPublicAccess": {
+        "storageAccountAllowBlobPublicAccess": {
             "type": "Bool"
         },
         "allowSharedKeyAccess": {
@@ -53,7 +53,7 @@
                 "accessTier": "[parameters('accessTier')]",
                 "minimumTlsVersion": "[parameters('minimumTlsVersion')]",
                 "supportsHttpsTrafficOnly": "[parameters('supportsHttpsTrafficOnly')]",
-                "allowBlobPublicAccess": "[parameters('allowBlobPublicAccess')]",
+                "allowBlobPublicAccess": "[parameters('storageAccountAllowBlobPublicAccess')]",
                 "allowSharedKeyAccess": "[parameters('allowSharedKeyAccess')]",
                 "networkAcls": {
                     "bypass": "[parameters('networkAclsBypass')]",
